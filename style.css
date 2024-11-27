@@ -1,0 +1,200 @@
+html {
+    margin: 0 auto;
+    position: relative;
+    /* Fix for absolute positioning */
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+.headerContainer {
+    background-color: #12bbb2;
+    max-width: 100%;
+    padding: 0px 40px 0px 20px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #12bbb2;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 10px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.logo img {
+    width: 60px;
+    border-radius: 5%;
+}
+
+.headerLinks {
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 50px;
+    transition: .3s;
+    width: auto;
+}
+
+.headerLinks a:hover {
+    background-color: #3e7c6f;
+}
+
+.searchBar {
+    position: relative;
+    text-align: right;
+    justify-content: right;
+}
+
+.searchBar input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 30px;
+    font-size: large;
+    padding-left: 40px;
+}
+
+.searchBar input::placeholder {
+    font-size: 14px;
+    color: gray;
+}
+
+.searchBar .searchBtn {
+    position: relative;
+    left: 5px;
+    border-radius: 50px;
+    height: 35px;
+    border: none;
+    font-weight: 600;
+    font-size: medium;
+    padding: 0 20px;
+    background-color: #EE626B;
+    color: #fff;
+    text-transform: none;
+    transition: .3s;
+}
+
+.searchBar .searchBtn:hover {
+    background-color: #fff;
+    color: #12bbb2;
+    cursor: pointer;
+}
+
+
+/* END HEADER  */
+
+
+/* PRESENTATION */
+
+.presentation {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    font-size: 11px;
+    border-width: 1px;
+    border-color: #c0c0c0;
+
+}
+
+/* BOX CARDS  */
+
+.mostBoxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.boxImg img {
+    border-radius: 20px;
+    position: relative;
+    height: auto;
+    max-width: 180px;
+}
+
+.boxCards .boxInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ingredients {
+    margin-bottom: 0;
+    color: gray;
+    cursor: pointer;
+}
+
+.boxContainer {
+    background-color: #EEEEEE;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 80px;
+    width: auto;
+    position: center;
+    max-width: 1300px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    /*  text-align: center; */
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+/* END BOXCARDS  */
+
+
+/* END PRESENTATION */
+
+
+/* FOOTER  */
+.footerContainer {
+    background-color: #0171F9;
+    height: 150px;
+    border-radius: 0 0 0 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: larger;
+}
+
+/* END FOOTER  */

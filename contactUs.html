@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="headerContainer">
+      <div class="header">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="headerLinks">
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="contactUs.html">Contact Us</a>
+        </nav>
+        <div class="searchBar">
+          <input type="text" placeholder="Type Something" />
+          <button class="searchBtn">SEARCH</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM  -->
+    <div class="formContainer">
+      <form onsubmit="emailSend(); reset(); return false;">
+        <input
+          type="text"
+          id="name"
+          placeholder="Full Name"
+          name="name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          placeholder="Email"
+          name="email"
+          required
+        />
+
+        <textarea
+          name="question"
+          cols="30"
+          rows="10"
+          placeholder="Your Question or Suggestion"
+        ></textarea>
+        <button type="submit" class="sendBtn">Send</button>
+      </form>
+    </div>
+    <!-- END FORM  -->
+
+    <!-- FOOTER  -->
+    <div class="footerContainer">
+      <div class="footer">
+        copyright &copy; 2024 INZ TDK. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>

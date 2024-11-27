@@ -103,7 +103,6 @@ body {
     cursor: pointer;
 }
 
-
 /* END HEADER  */
 
 
@@ -115,11 +114,17 @@ body {
     text-align: center;
 }
 
+.box {
+    padding: 0 20px 0 20px;
+}
+
 .description {
     font-size: 11px;
     border-width: 1px;
-    border-color: #c0c0c0;
-
+    border-color: #252525;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    border-radius: 2%;
 }
 
 /* BOX CARDS  */
@@ -132,7 +137,6 @@ body {
     justify-content: space-between;
     margin-top: 40px;
 }
-
 
 .boxImg img {
     border-radius: 20px;
